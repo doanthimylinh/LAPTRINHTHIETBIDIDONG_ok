@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_thoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:layout_gravity="right"/>
+    <EditText
+        android:id="@+id/ed_idAuhtor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập id"/>
+    <EditText
+        android:id="@+id/ed_nameAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập tên"/>
+    <EditText
+        android:id="@+id/ed_AddressAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập địa chỉ"/>
+    <EditText
+        android:id="@+id/ed_emailAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập email"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_Them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Thêm"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/btn_Xoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xóa"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/btn_Sua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sửa"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/btn_Book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book"
+            android:layout_marginRight="10dp"/>
+    </LinearLayout>
+    <GridView
+        android:id="@+id/gridViewAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"/>
+</LinearLayout>

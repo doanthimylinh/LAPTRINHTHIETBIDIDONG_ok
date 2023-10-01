@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_thoat"
+        android:layout_width="54dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="X" />
+    <EditText
+        android:id="@+id/et_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="id"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/et_hoten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Họ và Tên"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/et_sdt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số Điện thoại"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+    <EditText
+        android:id="@+id/et_dichi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ"
+        android:textSize="30dp"
+        android:textAlignment="center"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_them"
+            android:text="Thêm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_xoa"
+            android:text="Xóa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_sua"
+            android:text="Sửa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_select"
+            android:text="Seclect"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_trang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xóa Trắng"/>
+
+    <GridView
+        android:id="@+id/dsNhanVien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        />
+
+
+</LinearLayout>

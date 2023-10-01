@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NhanVienActivity">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_thoat"
+        android:text="Thoat"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_id"
+        android:hint="Nhap ma"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_name"
+        android:hint="Nhap ten"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ed_diaChi"
+        android:hint="Nhap dia chi"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chon lop"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner_PhongBan"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btn_Them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Them"/>
+        <Button
+            android:id="@+id/btn_Xoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xoa"/>
+        <Button
+            android:id="@+id/btn_Sua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sua"/>
+        <Button
+            android:id="@+id/btn_Select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select"/>
+    </LinearLayout>
+    <GridView
+        android:id="@+id/gridVew_NhanVien"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3" />
+</LinearLayout>

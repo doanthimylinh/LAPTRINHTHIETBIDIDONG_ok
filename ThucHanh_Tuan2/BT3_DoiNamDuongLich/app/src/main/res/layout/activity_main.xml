@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Chuyển đổi năm dương lịch"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="@color/teal_200">
+
+    </TextView>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:id="@+id/center"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="@+id/title">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="bottom"
+            android:text="Năm dương lịch:"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/namDuongLich"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <Button
+        android:id="@+id/buttonChuyenDoi"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Chuyển đổi"
+        android:textSize="15sp"
+        android:backgroundTint="#958E8E"
+        >
+    </Button>
+    <androidx.appcompat.widget.LinearLayoutCompat
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginEnd="@+id/title">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:gravity="bottom"
+            android:text="Năm âm lịch:"
+            android:textSize="25sp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/namAmLich"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:textSize="25sp" />
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textSize="25sp"
+        android:layout_gravity="bottom"
+        android:background="@color/teal_200">
+
+    </TextView>
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập hệ thống"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@color/teal_200"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tài khoản:"
+            android:textSize="20dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/taiKhoan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Không được để trống"
+            android:textColorHint="#686A6A"
+            android:layout_marginLeft="20dp">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mật khẩu:"
+            android:textSize="20dp">
+
+        </TextView>
+        <EditText
+            android:id="@+id/matKhau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Không được để trống"
+            android:textColorHint="#686A6A"
+            android:layout_marginLeft="20dp">
+        </EditText>
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu thông tin"
+        android:layout_marginLeft="100dp">
+    </CheckBox>
+    <Button
+        android:id="@+id/dangNhap"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:layout_gravity="right"
+        ></Button>
+    <Button
+        android:id="@+id/thoat"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Thoát"
+        android:layout_gravity="right">
+
+    </Button>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string-array name="sanpham_array">
+        <item>Đồng hồ Nam QQ S306J301Y</item>
+        <item>Đồng hồ Nữ Elio ES051-01</item>
+        <item>Đồng hồ Nữ ELIO EL086-02 </item>
+        <item>Đồng hồ nữ Elle Molitor Three-Hand thép - bạc</item>
+        <item>Đồng hồ nam Fossil FB-01 dây thép không gỉ - bạc</item>
+        <item>SMILE KID 43 mm Trẻ em SL087-02</item>
+        <item>SMILE KID 37 mm Trẻ em SL084-01</item>
+        <item>SMILE KID 39 mm Trẻ em SL083-03</item>
+        <item>SMILE KID 39 mm Trẻ em SL083-02</item>
+        <item>SMILE KID 38 mm Trẻ em SL086-01</item>
+        <item>SMILE KID 41 mm Trẻ em SL088-02</item>
+        <item>SMILE KID 41 mm Trẻ em SL088-01</item>
+        <item>SCITIZEN 40 mm Cơ Nam NH8391-51E</item>
+        <item>CITIZEN 40 mm Cơ Nam NH8391-51X</item>
+        <item>CITIZEN 40 mm Cơ Nam NH8391-51L</item>
+    </string-array>
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_author_thoat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thoat"
+        android:layout_gravity="right"/>
+
+    <EditText
+        android:id="@+id/ed_idAuhor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap id"/>
+    <EditText
+        android:id="@+id/ed_nameAuhor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap ten tac gia"/>
+    <EditText
+        android:id="@+id/ed_addressAuhor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap dia chi"/>
+    <EditText
+        android:id="@+id/ed_emailAuhor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhap email"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            android:id="@+id/btn_SelectAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="select"
+            ></Button>
+        <Button
+            android:id="@+id/btn_ThemAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Them"
+            ></Button>
+        <Button
+            android:id="@+id/btn_XoaAuthor"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="Xoa"
+            ></Button>
+        <Button
+            android:id="@+id/btn_SuaAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sua"
+            ></Button>
+        <Button
+            android:id="@+id/btn_Book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book"
+            ></Button>
+
+    </LinearLayout>
+    <GridView
+        android:id="@+id/grid_Author"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"/>
+</LinearLayout>

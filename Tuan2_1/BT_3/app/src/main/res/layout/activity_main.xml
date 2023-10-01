@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chyển đổi năm dương lịch"
+        android:textSize="30dp"
+        android:background="#1B6E1E"
+        android:textColor="@color/white"
+        android:textAlignment="center" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="Năm dương lịch:"
+            android:textAlignment="viewEnd"
+            android:width="170dp"/>
+
+        <EditText
+            android:id="@+id/DuongLich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="240dp"
+            android:textSize="20dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_marginLeft="170dp"
+            android:id="@+id/btn_CD"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="240dp"
+            android:text="Chuyển đổi"
+            android:bufferType="editable"
+            android:backgroundTint="#E3C6C6"
+            android:textColor="@color/black"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Năm âm lịch:"
+            android:textSize="20dp"
+            android:textAlignment="viewEnd"
+            android:width="170dp"/>
+
+        <TextView
+            android:id="@+id/AmLich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:width="240dp"
+            android:textSize="20dp"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1B6E1E"
+        android:textColor="@color/white"
+        android:textAlignment="center" />
+
+
+
+</LinearLayout>

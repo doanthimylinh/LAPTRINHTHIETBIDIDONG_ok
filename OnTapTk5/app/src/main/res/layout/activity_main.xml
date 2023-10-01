@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="right">
+        <Button
+            android:id="@+id/btn_book"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"/>
+        <Button
+            android:id="@+id/btn_thoat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Exit"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <EditText
+            android:id="@+id/ed_idAuthor"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="enter id"/>
+        <EditText
+            android:id="@+id/ed_nameAuthor"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="enter name"/>
+
+    </LinearLayout>
+    <EditText
+        android:id="@+id/ed_addressAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter address"/>
+    <EditText
+        android:id="@+id/ed_emailAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter email"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_selectAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Select"/>
+        <Button
+            android:id="@+id/btn_saveAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Save"/>
+        <Button
+            android:id="@+id/btn_deleteAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="Delete"/>
+        <Button
+            android:id="@+id/btn_updateAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Update"/>
+    </LinearLayout>
+    <GridView
+        android:id="@+id/grid_ListAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="4"/>
+
+</LinearLayout>
